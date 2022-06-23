@@ -13,6 +13,7 @@ from mpl_toolkits import mplot3d
 import os
 
 # See how many pictures/slices are there
+# Picture silces at: https://drive.google.com/drive/folders/1rqPIXbvQEPmllpene6wUzLWR-ygTcmRF?usp=sharing
 PIC_FOLDER = 'drive/MyDrive/Colab Notebooks/3D molecules/Trans-aconiticacid/'
 totalFiles = 0
 totalDir = 0
