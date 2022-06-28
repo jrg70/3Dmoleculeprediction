@@ -12,6 +12,7 @@ from sklearn.utils import shuffle
 from mpl_toolkits import mplot3d
 import os
 
+## Example of one molecule in 3D space
 # See how many pictures/slices are there
 # Picture silces at: https://drive.google.com/drive/folders/1rqPIXbvQEPmllpene6wUzLWR-ygTcmRF?usp=sharing
 PIC_FOLDER = 'drive/MyDrive/Colab Notebooks/3D molecules/Trans-aconiticacid/'
@@ -89,5 +90,8 @@ ax.scatter(XYZC[:,0],XYZC[:,1],XYZC[:,2], marker='.', c=XYZC[:,3:6]**15)
 plt.show()
 ### This shows the 3D structure of one molecule
 
-# load all molecules in
+## load all molecules in
+
+
+
 # solubility predictions
