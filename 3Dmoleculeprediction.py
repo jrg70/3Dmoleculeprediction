@@ -87,6 +87,7 @@ fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.scatter(XYZC[:,0],XYZC[:,1],XYZC[:,2], marker='.', c=XYZC[:,3:6]**15)
 plt.show()
+### This shows the 3D structure of one molecule
 
 # load all molecules in
 # solubility predictions
